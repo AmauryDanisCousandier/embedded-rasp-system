@@ -1,3 +1,0 @@
-/home/danis/Documents/ARGOS/embedded-rasp-system/build/CMakeFiles/rebuild_cache.dir
-/home/danis/Documents/ARGOS/embedded-rasp-system/build/CMakeFiles/edit_cache.dir
-/home/danis/Documents/ARGOS/embedded-rasp-system/build/CMakeFiles/DisplayImage.dir
