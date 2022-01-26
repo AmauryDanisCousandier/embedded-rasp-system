@@ -4,6 +4,7 @@
 #include <opencv2/opencv.hpp>
 #include <chrono>
 #include <thread>
+#include <unistd.h>
 
 
 int main(int argc, char **argv)
@@ -16,7 +17,8 @@ int main(int argc, char **argv)
             break;
         }
         cameraStream >> frame;
-        cv::imwrite("/home/frame.jpeg", frame); 
+        cv::imwrite("../httpServer/frame.jpeg", frame);
+        //usleep(5000000);
     }
     return (0);
 }
