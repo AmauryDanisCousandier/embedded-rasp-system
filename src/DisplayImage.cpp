@@ -17,7 +17,7 @@ int main(int argc, char **argv)
             break;
         }
         cameraStream >> frame;
-        cv::imwrite("../httpServer/frame.jpeg", frame);
+        cv::imwrite("./frame.jpeg", frame);
         //usleep(5000000);
     }
     return (0);
